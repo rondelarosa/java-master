@@ -24,6 +24,10 @@ public abstract class Worker {
      * So you get around that problem by providing an abstract method at the superclass level and
      * that abstract method is implemented in the subclass. So, the only reason getAmountDue exists
      * because the  superclass needs to get some information from the subclass.
+     *
+     * Protected access privilege, says it can be accessed or overridden at the subclass level, but it can't be accessed by anyone else.
+     * Now Java, unfortunately, grants package access to protected things.
+     * Protected exist so, you can do Template methods design pattern.
      * @return
      */
     abstract protected Money getAmountDue();
