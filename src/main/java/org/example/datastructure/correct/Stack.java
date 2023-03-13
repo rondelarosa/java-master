@@ -10,7 +10,8 @@ public interface Stack<T> {
     int size();
 
     /**
-     * Pattern to use for fragility problem
+     * Pattern to use for fragility problem.
+     * Replace extends with implements whenever possible
      * @param <T>
      */
     class Implementation<T> implements Stack<T> {
