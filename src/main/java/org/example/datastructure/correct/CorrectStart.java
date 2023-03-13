@@ -1,5 +1,9 @@
 package org.example.datastructure.correct;
 
+/**
+ * Do not use extends
+ * use interface instead
+ */
 public class CorrectStart {
     public static void process() {
         MonitorableStack<String> myStack = new MonitorableStack<>();

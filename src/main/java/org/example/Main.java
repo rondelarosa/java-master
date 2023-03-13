@@ -10,6 +10,6 @@ public class Main {
         System.out.println("Hello world!");
 //        AnnoStart.getEntries();
 //        OOPStart.process();
-//        CorrectStart.process();
+        CorrectStart.process();
     }
 }
