@@ -3,6 +3,7 @@ package org.example;
 import org.example.anno.AnnoStart;
 import org.example.contract.ContractStart;
 import org.example.datastructure.correct.CorrectStart;
+import org.example.dp.openclosep.OpenClosePrincipleStart;
 import org.example.oop.OOPStart;
 
 public class Main {
@@ -12,6 +13,7 @@ public class Main {
 //        AnnoStart.getEntries();
 //        OOPStart.process();
 //        CorrectStart.process();
-        ContractStart.process();
+//        ContractStart.process();
+        OpenClosePrincipleStart.process();
     }
 }
