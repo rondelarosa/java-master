@@ -1,5 +1,9 @@
 package org.example.dp.openclosep;
 
+/**
+ * Builder design pattern is delegating the creation.
+ * This pattern is example of Open/Close principle
+ */
 public class Employee {
     private String name;
     public Employee(String name) {

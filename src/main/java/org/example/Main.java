@@ -5,6 +5,7 @@ import org.example.contract.ContractStart;
 import org.example.datastructure.correct.CorrectStart;
 import org.example.dp.openclosep.OpenClosePrincipleStart;
 import org.example.oop.OOPStart;
+import org.example.reflection.ReflectionStart;
 
 public class Main {
     public static void main(String... args) {
@@ -14,6 +15,7 @@ public class Main {
 //        OOPStart.process();
 //        CorrectStart.process();
 //        ContractStart.process();
-        OpenClosePrincipleStart.process();
+//        OpenClosePrincipleStart.process();
+        ReflectionStart.process();
     }
 }
