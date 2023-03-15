@@ -13,6 +13,7 @@ public interface Payable {
         public void addObserver(PaymentObserver observer) {
             this.observer = observer;
         }
+
         public void pay() {
             this.observer.amPaying(this);
         }

@@ -6,6 +6,7 @@ import org.example.datastructure.correct.CorrectStart;
 import org.example.dp.openclosep.OpenClosePrincipleStart;
 import org.example.oop.OOPStart;
 import org.example.reflection.ReflectionStart;
+import org.example.streams.readfile.ReadInputStream;
 
 public class Main {
     public static void main(String... args) {
@@ -16,6 +17,8 @@ public class Main {
 //        CorrectStart.process();
 //        ContractStart.process();
 //        OpenClosePrincipleStart.process();
-        ReflectionStart.process();
+//        ReflectionStart.process();
+        ReadInputStream.process();
     }
+
 }
