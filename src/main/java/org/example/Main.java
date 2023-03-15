@@ -1,12 +1,6 @@
 package org.example;
 
-import org.example.anno.AnnoStart;
-import org.example.contract.ContractStart;
-import org.example.datastructure.correct.CorrectStart;
-import org.example.dp.openclosep.OpenClosePrincipleStart;
-import org.example.oop.OOPStart;
-import org.example.reflection.ReflectionStart;
-import org.example.streams.readfile.ReadInputStream;
+import org.example.streams.readfile.ReadAndWriteStream;
 
 public class Main {
     public static void main(String... args) {
@@ -18,7 +12,8 @@ public class Main {
 //        ContractStart.process();
 //        OpenClosePrincipleStart.process();
 //        ReflectionStart.process();
-        ReadInputStream.process();
+        ReadAndWriteStream.process();
+//        DateSample.process();
     }
 
 }
