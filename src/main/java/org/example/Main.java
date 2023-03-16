@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.datatype.HashCodeAndEqualsTest;
+import org.example.datatype.StringTest;
+import org.example.datatype.collection.CollectionTest;
 import org.example.streams.readfile.ReadAndWriteStream;
 
 public class Main {
@@ -12,8 +15,12 @@ public class Main {
 //        ContractStart.process();
 //        OpenClosePrincipleStart.process();
 //        ReflectionStart.process();
-        ReadAndWriteStream.process();
+//        ReadAndWriteStream.process();
 //        DateSample.process();
+//        StringTest.process();
+        CollectionTest.process();
+        HashCodeAndEqualsTest.process();
     }
+
 
 }

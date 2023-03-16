@@ -1,6 +1,6 @@
 package org.example.reversedeps;
 
-public class SomObject implements ButtonListener {
+public class SomeObject implements ButtonListener {
     /**
      *
      */
