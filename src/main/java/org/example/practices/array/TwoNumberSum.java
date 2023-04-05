@@ -72,7 +72,7 @@ public class TwoNumberSum {
                 return new int[]{array[left], array[right]};
             } else if (currentSum < targetSum) {
                 left++;
-            } else if (currentSum > targetSum) {
+            } else {
                 right--;
             }
         }
