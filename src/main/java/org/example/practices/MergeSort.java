@@ -1,5 +1,7 @@
 package org.example.practices;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,6 +9,14 @@ import java.util.List;
 public class MergeSort {
 
     public static void process() {
+        int[] list = new int[]{6, 3, 5, 1, 9, 45, 23};
+        int[] result = mergeSort(list);
+        System.out.println("input: " + Arrays.toString(list));
+        System.out.println("output: " + Arrays.toString(result));
+    }
+
+    @Test
+    public void givenNumbers_whenSort_thenReturnSorted() {
         int[] list = new int[]{6, 3, 5, 1, 9, 45, 23};
         int[] result = mergeSort(list);
         System.out.println("input: " + Arrays.toString(list));
